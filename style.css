@@ -1,0 +1,34 @@
+/* fonts
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main {
+  width: 1440px;
+  height: 3186px;
+}
+/* ------ HEADER ------*/
+header {
+  height: 720px;
+}
+
+/*----- ABOUT ------*/
+#about {
+  height: 1910px;
+}
+
+/* ------ FOOTER -----*/
+footer {
+  height: 556px;
+}
