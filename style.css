@@ -18,11 +18,62 @@ body {
   width: 1440px;
   height: 3186px;
 }
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
 /* ------ HEADER ------*/
 header {
   height: 720px;
+  padding: 45px 75px;
+  background: hsl(193, 100%, 96%) url(images/bg-hero-desktop.svg) no-repeat;
 }
-
+#header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+#header-top img {
+  width: 200px;
+  height: 30px;
+}
+#header-top button {
+  width: 200px;
+  height: 48px;
+  border: none;
+  border-radius: 24px;
+  background: white;
+}
+#header-main {
+  display: flex;
+}
+#header-main-container {
+  padding: 70px 75px 0 0;
+}
+#header-main-container h1 {
+  width: 450px;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+#header-main-container p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+#header-main-container button {
+  width: 280px;
+  height: 55px;
+  border-radius: 27.5px;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  color: white;
+}
+#header-main img {
+  width: 645px;
+}
 /*----- ABOUT ------*/
 #about {
   height: 1910px;
