@@ -83,18 +83,25 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 160px;
 }
 .about-item {
   width: 1230px;
   height: 440px;
   display: flex;
-  box-shadow: 10px 10px 10px 10px hsl(208, 11%, 55%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 40px;
   border-radius: 15px;
 }
 .about-text {
-  width: 490px;
+  width: 770px;
   height: 200px;
+  padding: 160px 160px 160px 120px;
+}
+.about-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 .about-text p {
   font-size: 18px;
@@ -105,8 +112,35 @@ header {
   width: 420px;
   height: 300px;
 }
-
+#overlaping-item {
+  width: 800px;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  position: relative;
+  top: 120px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#overlaping-item button {
+  width: 400px;
+  height: 80px;
+  border-radius: 40px;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  color: white;
+}
+#overlaping-item h1 {
+  margin-bottom: 40px;
+}
 /* ------ FOOTER -----*/
 footer {
   height: 556px;
+  background: hsl(192, 100%, 9%);
+  color: white;
+  padding: 180px 70px 65px 110px;
+  display: flex;
 }
