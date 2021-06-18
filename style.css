@@ -197,3 +197,104 @@ i {
   padding: 8px;
   margin-left: 10px;
 }
+
+/* ------- MOBILE VERSION --------*/
+@media only screen and (max-width: 375px) {
+  * {
+    max-width: 375px;
+  }
+  #main,
+  #header-main,
+  #about,
+  .about-item,
+  footer,
+  #footer-links {
+    flex-direction: column;
+  }
+  #main {
+    height: 3401px;
+  }
+  button {
+    width: 100px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  header {
+    height: 720px;
+    text-align: center;
+    padding: 25px;
+    background: hsl(193, 100%, 96%) url(images/bg-hero-mobile.svg) no-repeat;
+  }
+  #header-top {
+    margin-bottom: 20px;
+  }
+  #header-top img {
+    width: 100px;
+    height: 20px;
+  }
+  #header-top button {
+    width: 100px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  #header-main-container {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #header-main-container h1 {
+    font-size: 30px;
+  }
+  #header-main img {
+    width: 325px;
+    height: 210px;
+  }
+  #about {
+    height: 1833px;
+    padding-top: 80px;
+  }
+  .about-item {
+    width: 325px;
+    height: 490px;
+    text-align: center;
+  }
+  .about-item img {
+    width: 250px;
+    height: 200px;
+  }
+  .about-text {
+    padding: 25px;
+    width: 325px;
+  }
+  .about-text h2 {
+    font-size: 20px;
+  }
+  .about-text p {
+    font-size: 15px;
+  }
+  #overlaping-item {
+    width: 325px;
+    height: 176px;
+    font-size: 9px;
+    text-align: center;
+  }
+  #overlaping-item button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  footer {
+    height: 850px;
+    padding: 180px 0px 0px 0px;
+  }
+  .links a {
+    font-size: 15px;
+  }
+  #footer-social {
+    margin-bottom: 20px;
+  }
+  #footer-links,
+  #footer-copy {
+    position: relative;
+    top: 0px;
+  }
+}
