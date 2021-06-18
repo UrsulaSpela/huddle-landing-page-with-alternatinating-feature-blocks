@@ -143,4 +143,57 @@ footer {
   color: white;
   padding: 180px 70px 65px 110px;
   display: flex;
+  justify-content: space-between;
+}
+#footer-contact {
+  width: 400px;
+}
+svg {
+  margin-bottom: 35px;
+}
+#footer-contact p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+}
+#footer-links {
+  width: 400px;
+  display: flex;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+#footer-links,
+#footer-copy {
+  position: relative;
+  top: 80px;
+}
+#footer-copy {
+  width: 300px;
+  font-family: "Open Sans", sans-serif;
+}
+#footer-copy {
+  font-size: 13px;
+}
+#footer-social {
+  margin-bottom: 170px;
+}
+i {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  line-height: 30px;
+  padding: 8px;
+  margin-left: 10px;
 }
